@@ -1,3 +1,5 @@
+require 'pry'
+
 puts "🌱 Seeding spices..."
 Item.
 restaurants = Restaurant.create([
@@ -34,9 +36,43 @@ items = item.create([
     },
     {
         "id": 5,
-        "title": "Eggplant with Garlic Sauce",
-        "image": "https://static.toiimg.com/photo/75454071.cms",
+        "item_name": "Eggplant with Garlic Sauce",
+        "img_url": "https://static.toiimg.com/photo/75454071.cms",
         "price": "$12.00"
+    },
+    {
+      "id": 6,
+      "item_name": "Chicken Burrito",
+      "img_url": "https://healthynibblesandbits.com/wp-content/uploads/2016/02/Sushi-Burrito-FF.jpg",
+      "price": "$14.00"
+    },
+    {
+      "id": 7,
+      "item_name": "Fried Chicken Gua Bao",
+      "img_url": "https://www.njlux.com/media/Top-5-Asian-Fusion-Restaurants-in-Bergen-County.jpeg",
+      "price": "$10.00"
+    },
+    {
+      "id": 8,
+      "item_name": "Short Rib Tacos",
+      "img_url": "https://www.discoverlosangeles.com/sites/default/files/images/2019-03/Kogi%20Taqueria%20Short%20Rib%20Taco%20Jakob%20Layman.JPG?width=1600&height=1200&fit=crop&quality=78&auto=webp",
+      "price": "$8.00"
+    },
+    {
+      "id": 9,
+      "item_name": "Japanese Omelette Over Rice",
+      "img_url": "https://qph.cf2.quoracdn.net/main-qimg-655eca697f1c1a590cf401bf15e53adb.webp",
+      "price": "$15.00"
+    },
+    {
+      "id": 10,
+      "item_name": "Braised Beef Banh Mi",
+      "img_url": "https://i.cbc.ca/1.5266309.1567194178!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_940/bahn-mi.jpg",
+      "price": "$11.00"
     }
-])
+
+ ]
+)
+
+binding.pry
 puts "✅ Done seeding!"
