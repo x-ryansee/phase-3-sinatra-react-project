@@ -1,5 +1,5 @@
 puts "🌱 Seeding spices..."
-
+Item.
 restaurants = Restaurant.create([
     {
         name: "Fusion Kitchen",
@@ -39,5 +39,4 @@ items = item.create([
         "price": "$12.00"
     }
 ])
-
 puts "✅ Done seeding!"
