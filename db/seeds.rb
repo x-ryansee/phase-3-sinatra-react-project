@@ -69,8 +69,19 @@ items = item.create([
       "item_name": "Braised Beef Banh Mi",
       "img_url": "https://i.cbc.ca/1.5266309.1567194178!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_940/bahn-mi.jpg",
       "price": "$11.00"
+    },
+    {
+      "id": 11,
+      "item_name": "Singaporean Chili Crab Recipe",
+      "img_url": "https://www.seriouseats.com/thmb/qSGnrRY6RTXCmTaLfdxHDZP6lF4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2013__02__20130224-242112-singapore-chili-crab-edit-e02be72e16974f5da6fef41ec4ca7ea4.jpg",
+      "price": "$30.00"
+    },
+    {
+      "id": 12,
+      "item_name": "Vegan Asian Sesame Noodles",
+      "img_url": "https://christieathome.com/wp-content/uploads/2021/01/Vegan-Asian-Sesame-Noodles-2-b-scaled.jpg",
+      "price": "$12.00"
     }
-
  ]
 )
 
